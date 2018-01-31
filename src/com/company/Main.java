@@ -1,18 +1,14 @@
 package com.company;
 
+import Uzdaviniai.LyginisNelyginis;
+
 import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
         // write your code here
-        System.out.println("Iveskite Skaiciu");
-        Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        if (a % 2 == 0) {
-            System.out.println("Skaicius yra lyginis");
-        } else {
-            System.out.println("Skaicius nelyginis");
-        }
+
+        LyginisNelyginis objektas = new LyginisNelyginis();
     }
 }
